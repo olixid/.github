@@ -1,4 +1,8 @@
 
-![logo](https://github.com/koursely/.github/blob/main/profile/koursely.png?raw=true)
+![logo](https://github.com/olixid/.github/blob/main/profile/Olixid-Full-Black.svg?raw=true)
 
-# Create, Sell and Market digital courses in minutes with AI ✨
+# Creating a clean SaaS Xperience for you 🛠️
+
+## Current projects:
+
+- [koursely](https://github.com/olixid/koursely)
