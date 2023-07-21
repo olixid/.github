@@ -5,4 +5,12 @@
 
 ## Current projects:
 
-- [koursely](https://github.com/olixid/koursely)
+<hr />
+
+<img src="https://github.com/olixid/.github/blob/main/profile/koursely.png" width="200">
+
+Create. Sell. Market. your online courses in minutes with AI ✨
+
+[Link to website](https://koursely.com)
+
+<hr />
