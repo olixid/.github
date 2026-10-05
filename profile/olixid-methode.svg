@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 330" width="920" height="330" role="img" aria-label="La méthode Olixid en quatre étapes : diagnostic, prototype, production, autonomie">
+<style>
+  text { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Consolas, Menlo, monospace; font-size: 17px; white-space: pre; }
+  .type { clip-path: inset(0 100% 0 0); animation: type 0.8s .2s steps(34) forwards; }
+  .line { opacity: 0; animation: in .35s ease-out forwards; }
+  .bar { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 2.8s 0.9s linear forwards; }
+  .caret { animation: blink 1s steps(1) infinite; }
+  @keyframes type { to { clip-path: inset(0 0 0 0) } }
+  @keyframes in { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+  @keyframes grow { to { transform: scaleX(1) } }
+  @keyframes blink { 50% { opacity: 0 } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; clip-path: none !important; transform: none !important; } }
+</style>
+<rect width="920" height="330" rx="14" fill="#141A32"/>
+<rect x=".5" y=".5" width="919" height="329" rx="14" fill="none" stroke="#2C3A6E"/>
+<circle cx="28" cy="24" r="6" fill="#FF5F57"/><circle cx="48" cy="24" r="6" fill="#FEBC2E"/><circle cx="68" cy="24" r="6" fill="#28C840"/>
+<text x="460" y="29" text-anchor="middle" fill="#6B7392" font-size="14">olixid — méthode</text>
+<line x1="0" y1="46" x2="920" y2="46" stroke="#2C3A6E"/>
+<text x="36" y="78" class="type"><tspan fill="#F27A21">$</tspan> <tspan fill="#ECE7DC">olixid run --sur vos-données</tspan></text>
+<g class="line" style="animation-delay:0.90s">
+  <text x="36" y="112"><tspan fill="#6B7392">[1/4]</tspan>  <tspan fill="#FFAD73" font-weight="700">diagnostic </tspan><tspan fill="#ECE7DC">sur site, avec la direction et les équipes</tspan></text>
+  <text x="880" y="112" text-anchor="end"><tspan fill="#8D96B5">1–2 sem.</tspan>  <tspan fill="#F27A21">✓</tspan></text>
+</g>
+<g class="line" style="animation-delay:1.60s">
+  <text x="36" y="150"><tspan fill="#6B7392">[2/4]</tspan>  <tspan fill="#FFAD73" font-weight="700">prototype  </tspan><tspan fill="#ECE7DC">sur vos vraies données, pas une démo</tspan></text>
+  <text x="880" y="150" text-anchor="end"><tspan fill="#8D96B5">2–4 sem.</tspan>  <tspan fill="#F27A21">✓</tspan></text>
+</g>
+<g class="line" style="animation-delay:2.30s">
+  <text x="36" y="188"><tspan fill="#6B7392">[3/4]</tspan>  <tspan fill="#FFAD73" font-weight="700">production </tspan><tspan fill="#ECE7DC">branché sur vos outils et votre infra</tspan></text>
+  <text x="880" y="188" text-anchor="end"><tspan fill="#8D96B5">4–8 sem.</tspan>  <tspan fill="#F27A21">✓</tspan></text>
+</g>
+<g class="line" style="animation-delay:3.00s">
+  <text x="36" y="226"><tspan fill="#6B7392">[4/4]</tspan>  <tspan fill="#FFAD73" font-weight="700">autonomie  </tspan><tspan fill="#ECE7DC">vos équipes reprennent la main</tspan></text>
+  <text x="880" y="226" text-anchor="end"><tspan fill="#8D96B5">en continu</tspan>  <tspan fill="#F27A21">●</tspan></text>
+</g>
+<rect x="36" y="262" width="844" height="4" rx="2" fill="#2C3A6E"/>
+<rect class="bar" x="36" y="262" width="844" height="4" rx="2" fill="#F27A21"/>
+<g class="line" style="animation-delay:3.70s">
+  <text x="36" y="302"><tspan fill="#F27A21">→</tspan> <tspan fill="#8D96B5">critères de succès chiffrés avant la première ligne de code. sinon, on s’arrête là.</tspan><tspan class="caret" fill="#F27A21">▍</tspan></text>
+</g>
+</svg>

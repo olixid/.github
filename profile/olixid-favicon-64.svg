@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs>
+  <linearGradient id="xl" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#F27A21"/>
+    <stop offset="100%" stop-color="#FFAD73"/>
+  </linearGradient>
+  <linearGradient id="xd" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#732700"/>
+    <stop offset="100%" stop-color="#C14E0E"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#F27A21" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#F27A21" stop-opacity="0"/>
+  </radialGradient>
+  <g id="xb">
+    <polygon points="0,-45 135,-45 180,0 135,0 0,0" fill="url(#xl)"/>
+    <polygon points="45,0 135,0 180,0 135,45 45,45" fill="url(#xd)"/>
+  </g>
+</defs>
+<ellipse cx="32" cy="32" rx="16" ry="16" fill="url(#glow)"/>
+<g transform="translate(32,32) scale(0.21) rotate(45)">
+  <use href="#xb"/>
+  <use href="#xb" transform="rotate(90)"/>
+  <use href="#xb" transform="rotate(180)"/>
+  <use href="#xb" transform="rotate(270)"/>
+  <polygon points="-24,-24 24,-24 24,24 -24,24" fill="url(#xd)"/>
+  <polygon points="-12,-12 12,-12 12,12 -12,12" fill="url(#xl)"/>
+</g>
+</svg>

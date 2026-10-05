@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 0 221 108" width="221" height="108">
+<defs>
+  <linearGradient id="xl" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#F27A21"/>
+    <stop offset="100%" stop-color="#FFAD73"/>
+  </linearGradient>
+  <linearGradient id="xd" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#732700"/>
+    <stop offset="100%" stop-color="#C14E0E"/>
+  </linearGradient>
+  <g id="xb">
+    <polygon points="0,-45 135,-45 180,0 135,0 0,0" fill="url(#xl)"/>
+    <polygon points="45,0 135,0 180,0 135,45 45,45" fill="url(#xd)"/>
+  </g>
+</defs>
+<g transform="translate(156,52) scale(0.2) rotate(45)">
+  <use href="#xb"/>
+  <use href="#xb" transform="rotate(90)"/>
+  <use href="#xb" transform="rotate(180)"/>
+  <use href="#xb" transform="rotate(270)"/>
+  <polygon points="-24,-24 24,-24 24,24 -24,24" fill="url(#xd)"/>
+  <polygon points="-12,-12 12,-12 12,12 -12,12" fill="url(#xl)"/>
+</g>
+<g transform="translate(32.0000 75.2812) scale(0.03125 -0.03125)"><path fill="#141A32" d="M792 -20Q591 -20 430.5 69.0Q270 158 176.0 329.0Q82 500 82 744Q82 990 176.0 1161.0Q270 1332 430.5 1421.0Q591 1510 792 1510Q992 1510 1152.5 1421.0Q1313 1332 1406.5 1161.0Q1500 990 1500 744Q1500 499 1406.5 328.0Q1313 157 1152.5 68.5Q992 -20 792 -20ZM792 290Q900 290 978.0 342.0Q1056 394 1098.0 495.5Q1140 597 1140 744Q1140 892 1098.0 994.0Q1056 1096 978.0 1148.0Q900 1200 792 1200Q683 1200 605.0 1147.5Q527 1095 485.0 993.5Q443 892 443 744Q443 597 485.0 496.0Q527 395 605.0 342.5Q683 290 792 290Z"/></g>
+<g transform="translate(78.2687 75.2812) scale(0.03125 -0.03125)"><path fill="#141A32" d="M116 0V1490H469V288H1092V0Z"/></g>
+<g transform="translate(111.2562 75.2812) scale(0.03125 -0.03125)"><path fill="#141A32" d="M469 1490V0H116V1490Z"/></g>
+<g transform="translate(183.3762 75.2812) scale(0.03125 -0.03125)"><path fill="#141A32" d="M469 1490V0H116V1490Z"/></g>
+<g transform="translate(198.4575 75.2812) scale(0.03125 -0.03125)"><path fill="#141A32" d="M664 0H268V302H649Q777 302 865.5 345.0Q954 388 999.0 486.0Q1044 584 1044 745Q1044 906 998.0 1003.5Q952 1101 863.5 1144.5Q775 1188 644 1188H261V1490H664Q891 1490 1055.0 1400.5Q1219 1311 1308.0 1144.0Q1397 977 1397 745Q1397 513 1308.5 345.5Q1220 178 1055.5 89.0Q891 0 664 0ZM469 1490V0H116V1490Z"/></g>
+</svg>
